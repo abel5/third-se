@@ -68,13 +68,13 @@ background: linear-gradient(to top,rgb(0,0,0,0.15),
 }
 .search-Btn{
     position: absolute;
-    right: 16px;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
     background: none;
     display: flex;
     border: none;
-    cursor: pointer;
+    cursor: auto;
 
 }
 .weather-Info{
