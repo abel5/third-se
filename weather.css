@@ -68,7 +68,7 @@ background: linear-gradient(to top,rgb(0,0,0,0.15),
 }
 .search-Btn{
     position: absolute;
-    right: 18px;
+    right: 20px;
     top: 50%;
     transform: translateY(-50%);
     background: none;
