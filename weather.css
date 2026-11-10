@@ -74,7 +74,7 @@ background: linear-gradient(to top,rgb(0,0,0,0.15),
     background: none;
     display: flex;
     border: none;
-    cursor: auto;
+    cursor: pointer;
 
 }
 .weather-Info{
