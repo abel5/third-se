@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather-App</title>
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js" defer></script> 
+<!-- imperting google font-->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+
+</head>
+<body>
+    <main class="main-Container">
+  <header class="input-Container">
+    <input type="text" class="city-Input" placeholder="Search City">
+    <button class="search-Btn">
+        <span class="material-symbols-outlined">
+search
+</span>
+    </button>
+  </header>
+
+  <section class="weather-Info" style="display: none;">
+    <div class="location-Data-Container">
+        <div class="location">
+   <span class="material-symbols-outlined">
+location_on
+</span>
+<h4 class="country-Text">jakarta</h4>
+        </div>
+ <h5 class="current-Data-Tex regular-Text">Wed,07 Aug</h5>
+    </div>
+
+    <div class="weather-Summery-Container">
+        <img src="state/cloudy.png"  class="weather-Summery-Img">
+        <div class="weather-Summery-Info">
+            <h1 class="temp-Text">29 °C </h1>
+            <h3 class="condition-Text regular-Text">cloudes</h3>
+        </div>
+    </div>
+
+    <div class="weather-Condition-Container">
+        <div class="condition-Item">
+            <span class="material-symbols-outlined">
+water_drop
+</span>
+<div class="condition-Info">
+    <h5 class="regular-Text">humidity</h5>
+    <h5 class="humidity-Value-Text">55%</h5>
+</div>
+        </div>
+
+        <div class="condition-Item">
+  <span class="material-symbols-outlined">
+air
+</span>
+<div class="condition-Info">
+    <h5 class="regular-Text">wind speed</h5>
+    <h5 class="wind-Value-Text">2 m/s</h5>
+</div>
+        </div>
+    </div>
+    <div class="forecast-Items-Container">
+        <div class="forecast-Item">
+            <h5 class="forecast-Item-date regular-Text">05 Aug</h5>
+            <img src="state/thunder.png"  class="forecast-Item-Img">
+            <h5 class="forecast-Item-Temp">29 °C</h5>
+        </div>
+<div class="forecast-Item">
+            <h5 class="forecast-Item-date regular-Text">05 Aug</h5>
+            <img src="state/thunder.png"  class="forecast-Item-Img ">
+            <h5 class="forecast-Item-Temp">29 °C</h5>
+        </div>
+
+        <div class="forecast-Item">
+            <h5 class="forecast-Item-date regular-Text">05 Aug</h5>
+            <img src="state/thunder.png"  class="forecast-Item-Img ">
+            <h5 class="forecast-Item-Temp">29 °C</h5>
+        </div>
+
+        <div class="forecast-Item">
+            <h5 class="forecast-Item-date regular-Text">05 Aug</h5>
+            <img src="state/thunder.png"  class="forecast-Item-Img ">
+            <h5 class="forecast-Item-Temp">29 °C</h5>
+        </div>
+
+        <div class="forecast-Item">
+            <h5 class="forecast-Item-date regular-Text">05 Aug</h5>
+            <img src="state/thunder.png"  class="forecast-Item-Img ">
+            <h5 class="forecast-Item-Temp">29 °C</h5>
+        </div>
+
+
+
+    </div>
+  </section>
+
+  <section class="search-city  section-Message">
+<img src="message/Web search-pana (2).png" >
+<div>
+    <h1>Search City</h1>
+    <h4 class="regular-Text">Find out the weather conditions of the city</h4>
+</div>
+
+  </section>
+
+  <section class="not-Found  section-Message" style="display:none">
+<img src="message/255854130_2e0d2f40-779c-4838-aeac-1b03ab9e39db.jpg" class="message-Img">
+<div>
+    <h1>Search City</h1>
+    <h4 class="regular-Text">Find out the weather conditions of the city</h4>
+</div>
+
+  </section>
+
+    </main>
+
+   
+</body>
+</html>
